@@ -115,7 +115,7 @@
                     <div class="content">
                         <h4 class="motto">¡Reserva tu horario ahora!</h4>
 
-                        <div class="container d-flex justify-content-center align-items-center" style="height: 200px; text-align: center; width: auto;">
+                        <div class="container d-flex justify-content-center align-items-center" style="height: 100px; text-align: center; width: auto;">
                             <a href="{{ url('/home') }}"><button class="btn btn-danger btn-fill">Reservar</button></a>
                         </div>
 
@@ -127,8 +127,8 @@
                                 <div class="col-md-4 col-md-offset-4 col-sm6-6 col-sm-offset-3 ">
                                     <form class="form-inline" role="form">
                                       <div class="form-group">
-                                        <label class="sr-only" for="exampleInputEmail2">Email</label>
-                                        <input type="email" class="form-control transparent" placeholder="Tu Email aqui...">
+                                        <label class="sr-only" for="exampleInputEmail2">Correo Electrónico</label>
+                                        <input type="email" class="form-control transparent" placeholder="Tu correo electrónico aqui...">
                                       </div>
                                       <button type="submit" class="btn btn-danger btn-fill">enviar</button>
                                     </form>
